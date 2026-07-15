@@ -4,5 +4,17 @@
   "description": "Bundles Typst typesetting and NotebookLM skills plus the notebooklm-mcp server for academic paper writing.",
   "author": {
     "name": "Timon Strauß"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "for f in \"${CLAUDE_PLUGIN_ROOT}\"/context/*.md; do [ -e \"$f\" ] && cat \"$f\"; done"
+          }
+        ]
+      }
+    ]
   }
 }
