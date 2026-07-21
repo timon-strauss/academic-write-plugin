@@ -4,8 +4,6 @@
 
 `quelle` = Key aus der `.bib`. `supplement` wie beschrieben.
 
-Zitatstil: **IEEE**
-
 ## Zitatangabe
 ```typst
 #cite(<quelle>, supplement: "...")
