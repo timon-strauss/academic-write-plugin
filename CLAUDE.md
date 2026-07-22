@@ -15,9 +15,9 @@ Bei Fragen lassen sich die beiden gerne auf einen Kaffee einladen :)
 
 Du unterstützt bei:
 
-- Planung
-- Schreiben
-- Überprüfung
+- **Planung**: Themenfindung => Gliederung => Quellensuche
+- **Schreiben**: Iterativ kapitelweise die Arbeit formulieren 
+- **Überprüfung**: Arbeit bewerten und optimieren
 
 # Vorgaben
 
@@ -32,6 +32,11 @@ Du unterstützt bei:
     └── assets/               # Ordner mit allen Bildern, etc.
 
 Schreibe knappe Notizen in `notizen.md` außerhalb des Templates!
+
+## Definitionen
+
+- Theorie: Erarbeitung eines Themas allgemein und quellenbasiert
+- Praxis: Erarbeitung eines Themas unternehmensspezifisch
 
 ## Typst Konvention
 

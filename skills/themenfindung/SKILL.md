@@ -43,9 +43,6 @@ Finde formale Vorgaben der Arbeit heraus durch ermittlung dieser Punkte:
 
 Dieser Schritt setzt die Baseline der weiteren Erarbeitung.
 Behalte diese Punkte im hinterkopf für die weiteren Schritte.
-Wichtig für den Verlauf ist die Definition:
-- Theorie: Erarbeitung eines Themas allgemein und quellenbasiert
-- Praxis: Erarbeitung eines Themas unternehmensspezifisch
 
 ## 2. Inhaltliches Thema
 
