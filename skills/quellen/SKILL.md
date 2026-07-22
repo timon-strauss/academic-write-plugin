@@ -12,6 +12,8 @@ Du führst 3 Operation durch:
 - Quellenüberprüfung    # Überprüfung der Quellen nach eignung
 - Abdeckungsüberprüfung # Überprüfung ob alle Themenbereiche abgedeckt sind
 
+Generell ist der Ablauf, dass du eine Quelle raussuchst, sie mit mir verifizierst und nach der generellen Abdeckung für Lücken schaust.
+
 # Verhalten
 
 - Schau nicht selber in Quellen: **Nutze den NotebookLM MCP**
