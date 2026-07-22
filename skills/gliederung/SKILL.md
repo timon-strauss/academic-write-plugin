@@ -23,6 +23,7 @@ Sie dient als grober Plan für das weitere Vorgehen.
 Erarbeite die Grobe Gliederung basierend auf dem roten Faden und der Forschungsfrage.
 Schaue zunächst in den Notizen oder in der Arbeit selbst.
 Falls diese nicht vorhanden sind schlage vor zuerst `Themenfindung` zu nutzen um das zu erarbeiten.
+Falls eine Gliederung schon da ist schlage vor sie zu ergänze - falls nicht fertig - oder sie zu überarbeiten
 
 Die zu erarbeitende Gliederung muss zunächst grob umfasst werden, also nur headlevel Überschriften.
 Überdenke grob was in jedes Kapitel rein gehört, um die Kapitel sauber zu trennen.
