@@ -1,7 +1,8 @@
 {
   "name": "paper-maker",
   "version": "0.2.1",
-  "description": "Bundles Typst typesetting and NotebookLM skills plus the notebooklm-mcp server for academic paper writing.",
+  "description": "Paper-Maker is an AI assistant built into Claude Code to support dual students at SAP in writing academic papers (wissenschaftliche Arbeiten). It guides you through the full writing process.
+",
   "author": {
     "name": "Timon Strauß"
   },
