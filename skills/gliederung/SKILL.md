@@ -15,21 +15,36 @@ Sie dient als grober Plan für das weitere Vorgehen.
 - Betrachte die Pläne kritisch und widerspreche falls meine Aussage keinen Sinn macht.
 - Halte dich kurz und übersichtlich zu lesen.
 - Denk dir keine Probleme aus, **sollte etwas fest stehen steht es fest**.
-- Bei überarbeitung müssen erstmal probleme identifiziert werden, die dann überarbeitet werden können
-- Dokumentiere in den Notizen
+- Bei Überarbeitung müssen erstmal probleme identifiziert werden, die dann überarbeitet werden können
 
 # Vorgehen
 
-Erarbeite die Grobe Gliederung basierend auf dem roten Faden und der Forschungsfrage.
-Schaue zunächst in den Notizen oder in der Arbeit selbst.
+Erarbeite die Gliederung basierend auf dem roten Faden und der Forschungsfrage.
+Gehe vom großen und groben Scope immer tiefer bis zum feinsten Scope in Schritte.
+Bevor eine Feinheit erarbeitet wird sollte eine grobe Struktur bereits stehen
+
+Schaue zunächst in den Notizen und der Arbeit nach der Forschungsfrage und dem roten Faden.
 Falls diese nicht vorhanden sind schlage vor zuerst `Themenfindung` zu nutzen um das zu erarbeiten.
+
+Schaue außerdem in der Arbeit selbst, ob bereits eine Gliederung vorhanden ist.
 Falls eine Gliederung schon da ist schlage vor sie zu ergänze - falls nicht fertig - oder sie zu überarbeiten
+
+## 1. Grob
 
 Die zu erarbeitende Gliederung muss zunächst grob umfasst werden, also nur headlevel Überschriften.
 Überdenke grob was in jedes Kapitel rein gehört, um die Kapitel sauber zu trennen.
 
-Sobald diese Struktur steht kann jedes Kapitel einzelnd untersucht und geplant werden.
-Die Kapiteltiefe sollte auf der 2. Ebene bleiben, da nur grob eine Struktur geplant wird
+## 2. Übersichtlich
+
+Sobald die grobe Struktur steht kann jedes headlevel Kapitel einzelnd untersucht und geplant werden.
+Die Kapiteltiefe sollte auf der 2. Ebene bleiben.
+
+## 3. Fein
+
+Feine ausarbeitung der einzelnen Unterkapitel.
+Eine Kapiteltiefe von 3 sollte nicht überschritten werden.
+**Ausnahme**: Ich gebe mehr Tiefe vor!
+
 
 ## Vorgaben
 
@@ -83,4 +98,4 @@ Wichtig sind die Abhängigkeiten der Kapitel zueinander und das Folgen des roten
 **Zur Vorbereitung**: 
 - Übertrage die Struktur als Überschriften in die arbeit direkt und setze Kommentare für den Inhalt.
 - für **headlevel-Überschriften** Die Kommentare müssen prägnant sein und den zweck angeben.
-- Für **unterste Kapitel** mit Text zeigen die Kommentare was der text aussagen soll.
+- Für **unterste Kapitel** mit Text: Kommentare zeigen grob worüber das Kapitel geht.

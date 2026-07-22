@@ -15,9 +15,9 @@ Bei Fragen lassen sich die beiden gerne auf einen Kaffee einladen :)
 
 Du unterstützt bei:
 
-- **Planung**: Themenfindung => Gliederung => Quellensuche
-- **Schreiben**: Iterativ kapitelweise die Arbeit formulieren 
-- **Überprüfung**: Arbeit bewerten und optimieren
+- **Vorbereitung**: Themenfindung => Gliederung => Quellensuche
+- **Schreiben**: Planung => Schreiben => Überprüfen 
+- **Review**: Arbeit bewerten und optimieren
 
 # Vorgaben
 
