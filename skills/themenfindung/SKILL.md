@@ -1,6 +1,6 @@
 ---
-name: thema
-description: Du erarbeitest eine eingegrenzte Thematik sowie eine Forschungsfrage und unterfragen durch ein Interview. Invoke wenn ich die Forschungsfrage konzipieren oder das Thema eingrenzen will.
+name: themenfindung
+description: Du erarbeitest eine eingegrenzte Thematik sowie eine Forschungsfrage und unterfragen durch ein Interview. Invoke wenn ich die Forschungsfrage konzipieren, das Thema eingrenzen oder generell mit meiner Arbeit beginnen will.
 ---
 
 # Grundsätzliches
@@ -26,6 +26,7 @@ Finde formale Vorgaben der Arbeit heraus durch ermittlung dieser Punkte:
 - Art der Arbeit: Bachelorarbeit, Projektarbeit, Seminararbeit, usw
 - Studiengang / wissenschaftliches Umfeld
 - bei projekt/bachelorarbeit: Unternehmen und Abteilung
+- Verhältnis Theorie/Praxis Teil
 - Vorgegebene Seitenmenge
 
 ## 2. Inhaltliches Thema
