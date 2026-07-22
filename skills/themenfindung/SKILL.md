@@ -90,3 +90,17 @@ Dieser Schritt ist wichtig: Frage solange bis alle Feinheiten und Unklarheiten g
 Ich muss ganz sicher sein, dass die formulierte Fragen die einzelnen Kapitel thematisch eingrenzt und auf die Forschungsfrage leiten.
 
 Formuliere Nach Erarbeitung der Unterfragen diese unter die Forschungsfrage in die Notizen.
+
+## 5. Roter Faden
+
+Erarbeite aus allen infos den Roten Faden der arbeit
+- Ablauf der Arbeit
+- Was kommt in Theorie / was in Praxis 
+
+Auf dem roten Faden basiert die spätere Gliederung.
+Die arbeit muss diesem Faden folgen.
+Der Faden basiert auf der Forschungsfrage und den Unterfragen, da er sie nacheinander aufbauend beantwortet.
+
+Der Faden verläuft meist trichterförmig und aufbauend: Allgemein (Theorie) => spezifisch => Entscheidung => implementierung.
+Kann aber auch ganz anders aussehen: Erarbeite mit mir.
+Im roten Faden muss sich zeigen dass Theorie und Praxis gut aufgeteilt ist wie es die Vorgaben geben.
