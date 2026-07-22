@@ -11,7 +11,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "for f in \"${CLAUDE_PLUGIN_ROOT}\"/context/*.md; do [ -e \"$f\" ] && cat \"$f\"; done"
+            "command": "for f in \"${CLAUDE_PLUGIN_ROOT}\"CLAUDE.md; do [ -e \"$f\" ] && cat \"$f\"; done"
           }
         ]
       }
