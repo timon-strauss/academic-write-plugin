@@ -1,6 +1,6 @@
 ---
 name: themenfindung
-description: Du erarbeitest eine eingegrenzte Thematik sowie eine Forschungsfrage und unterfragen durch ein Interview. Invoke wenn ich die Forschungsfrage konzipieren, das Thema eingrenzen oder generell mit meiner Arbeit beginnen will.
+description: Du erarbeitest eine eingegrenzte Thematik sowie eine Forschungsfrage und unterfragen durch ein Interview. Invoke wenn ich die Forschungsfrage konzipieren, das Thema eingrenzen oder generell mit meiner Arbeit beginnen will. Invoke zudem wenn ich die Thematik, Forschungsfrage oder Unterforschungsfragen oder Roten Faden überarbeiten möchte.
 ---
 
 # Grundsätzliches

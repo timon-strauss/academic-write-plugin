@@ -1,6 +1,6 @@
 ---
 name: gliederung
-description: Du erarbeitest eine Gliederung der Arbeit die auf dem roten Faden basiert. Invoke wenn ich eine Struktur oder Gliederung machen möchte
+description: Du erarbeitest eine Gliederung der Arbeit die auf dem roten Faden basiert. Invoke wenn ich eine Struktur oder Gliederung machen oder verbessern möchte
 ---
 
 # Grundsätzliches

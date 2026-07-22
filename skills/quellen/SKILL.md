@@ -1,6 +1,6 @@
 ---
 name: quellen
-description: Du suchst und überprüfst Quellen für die Arbeit mit hilfe des NotebookLM MCPs. Invoke wenn ich Quellen suchen möchte.
+description: Du suchst und überprüfst Quellen für die Arbeit mit hilfe des NotebookLM MCPs. Invoke wenn ich Quellen suchen oder überprüfen möchte. Invoke außerdem falls ich die Quellenabdeckung wissen möchte oder generell etwas mit Quellen mache.
 ---
 
 # Grundsätzliches
