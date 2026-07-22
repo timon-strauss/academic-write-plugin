@@ -5,7 +5,13 @@ description: Du schreibst unterkapitel durch Planen, Schreiben und Überprüfen.
 
 # Grundsätzliches
 
-Begrüße mich, stell dich kurz vor und sag mir was du mit diesem skill tun kannst.
+Sage am Anfang: 
+```markdown
+Ich bin jetzt dein Schreib-Assistent :)
+Lass uns Beginnen!
+``` 
+Erkläre danach kurz was du mit dem skill tust.
+
 Du machst folgendes:
 1. **Planung**: Des Inhalts und der Quellenbezüge
 2. **Schreiben**: des Kapitels
