@@ -5,6 +5,14 @@ description: Du planst Unterkapitel in Notizen und Stichpunkten. Invoke sobald i
 
 # Grundsätzliches
 
+## Verhalten
+
+- **Bleibe im Kapitel**, das ich vorgebe!
+- Du befolgst den 3-Schritt-Ablauf penibel
+- Ist ein Schritt bereits vorhanden: Frage ob dieser überarbeitet/ergänzt werden soll oder der nächste Schritt gestartet werden soll
+
+## Skill-Aufruf
+
 Sage am Anfang: 
 ```markdown
 Ich bin jetzt dein Planungs-Assistent :)
@@ -17,19 +25,62 @@ Du machst folgendes:
 2. **Suche** nach geeigneten Quellen für alle Absätze aus dem Quellenverzeichnis
 3. **Auswertung** der Quellen im Bezug auf die inhaltlichen Anforderungen
 
-# Verhalten
-
-- **Bleibe im Kapitel**, das ich vorgebe!
-- Du befolgst den 3-Schritt-Ablauf penibel
-- Ist ein Schritt bereits vorhanden: Frage ob dieser überarbeitet/ergänzt werden soll oder der nächste Schritt gestartet werden soll
-
 ## Kapitelwahl
 
 - Ein zu bearbeitendes Kapitel muss auf der untersten Ebene sein => Kapitel besteht nur aus Fließtext für Bearbeitung und hat keine weiteren Unterkapitel.
 - Gebe ich ein Kapitel mit weiteren Unterkapiteln ein: Frage, welches davon du bearbeiten sollst
 - Falls bei der Planung auffällt, dass ein Kapitel besser aufgegliedert werden sollte in weitere Unterkapitel: Verweise auf `Gliederung` für feinere Strukturierung
 
+## Abschluss
+
+Sobald alles fertig ist:
+- CLAUDE.md aktualisieren für Projektstand unter Kategorie `Planung`!
+- Gib für jedes Kapitel einen Unterpunkt ein
+- Unterpunkte haben einen Status, aber keinen Verweis
+
+Schlage im Nachhinein Folgendes vor:
+- Geplantes Kapitel schreiben mit `/kapitel-schreiben`
+- Nächstes Kapitel planen mit `/kapitel-planen` (sofern nicht alle Kapitel geplant sind)
+
 # Vorgehen
+
+## Erarbeitung von Scratch
+
+Prüfe zu Beginn die Voraussetzungen. Wenn diese verstanden und erfüllt sind, fange bei Anfang an, um ein Kapitel auszuwählen, und fahre mit der beschriebenen Planung fort.
+
+Dieses Vorgehen zielt darauf ab, die Planung von Anfang an durchzuführen.
+
+## Ergänzende Erarbeitung
+
+Schaue zunächst welche Schritte bereits abgedeckt sind in `Planung/xx_xx_xx.md`.
+Schaue ebenfalls in die Arbeit und ergänze alle `Planung/xx_xx_xx.md`s, die fehlen. Arbeite dabei penibel nach den im Planungskapitel beschriebenen Schritten, um die Vollständigkeit zu wahren.
+
+Starte dann die Planung und gehe alle unvollständigen Schritte ab.
+
+Dieses Vorgehen zielt darauf ab die Planung zu vervollständigen!
+
+## Überarbeitung
+
+Starte wie du es mit der Planung tun würdest und gehe Schritt für Schritt durch:
+- Analysiere für jeden Schritt zunächst, was bereits da ist und ob alles abgedeckt ist
+- Identifiziere danach inhaltlich Lücken oder Unklarheiten
+- Arbeite zusammen mit mir genau an diesen Lücken: Sind sie ein Problem? Wie kann man sie schließen? Gib Vorschläge
+
+Dieses Vorgehen zielt darauf ab die Planung zu optimieren!
+
+## Analyse und Übernahme
+
+Durchlaufe Schritt für Schritt, ohne dass ich etwas einwende.
+- Rekonstruiere alle Antworten aus dem Input den ich dir gebe. Bspw. bestehende Passage aus der Arbeit, Notizen
+- **Sollte etwas fehlen**: Weise darauf hin und bitte um Ergänzung. Sollte keine Ergänzung kommen: **Empfehle** eine Überarbeitung nach der Übernahme
+- Übernimm die Planung in die `Planung/xx_xx_xx.md`s
+
+Dieses Vorgehen zielt darauf ab den bisherigen Stand für das Plugin aufzubereiten!
+**Es zielt nicht darauf ab die Planung zu überarbeiten oder zu optimieren!**
+Gib keine Verbesserungsvorschläge und auch keine Angaben zur geschriebenen Arbeit in die Dokumentation!
+Gib keine Konsistenzchecks an!
+
+# Schritte
 
 ## Voraussetzung
 
