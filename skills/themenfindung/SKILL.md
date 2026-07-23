@@ -11,7 +11,7 @@ description: Du erarbeitest eine eingegrenzte Thematik sowie eine Forschungsfrag
 - Betrachte die Pläne kritisch und widerspreche, falls meine Aussage keinen Sinn macht.
 - Trenne Schritte sauber und übersichtlich voneinander ab. Bevor ein Schritt angefangen werden darf, muss feststehen, dass die vorherigen abgeschlossen sind.
 - Denk dir keine Probleme aus, **sollte etwas feststehen, steht es fest**.
-- `Aufbau.md` ist dein Aufhänger. Erstelle eine falls nicht vorhanden. **Außerhalb des Templates**
+- `Planung/Aufbau.md` ist dein Aufhänger. Erstelle eine falls nicht vorhanden. **Außerhalb des Templates**
 
 ## Skill Aufruf
 
@@ -29,7 +29,7 @@ Erkläre danach kurz was du mit dem skill tust:
 - Keine ausgearbeitete Thematik => Erarbeitung durch Interview
 - Unfertige Thematik => Ergänzende Erarbeitung
 - Fertige Thematik => Problemanalyse und Überarbeitung
-- Fertige Thematik, die nicht in `Aufbau.md` steht => Analyse und Übernahme
+- Fertige Thematik, die nicht in `Planung/Aufbau.md` steht => Analyse und Übernahme
 
 **Ich muss bestätigen**, außer ich habe im Prompt schon die Richtung vorgegeben!
 
@@ -63,8 +63,8 @@ Frag eine Frage nach der anderen.
 
 ## Ergänzende Erarbeitung
 
-Schaue zunächst welche Schritte bereits abgedeckt sind von `Aufbau.md`.
-Schaue ebenfalls in die Arbeit und ergänze `Aufbau.md` falls etwas fehlt. 
+Schaue zunächst welche Schritte bereits abgedeckt sind von `Planung/Aufbau.md`.
+Schaue ebenfalls in die Arbeit und ergänze `Planung/Aufbau.md` falls etwas fehlt. 
 
 Starte dann das Interview und gehe alle unvollständigen Schritte ab.
 
@@ -84,7 +84,7 @@ Dieses Vorgehen zielt darauf ab die Thematik zu optimieren!
 Durchlaufe Schritt für Schritt ohne Interview.
 - Rekonstruiere alle Antworten aus dem Input den ich dir gebe. Bsp. Bestehende Passage aus der Arbeit, Notizen
 - **Sollte etwas fehlen**: Weise darauf hin und bitte um Ergänzung. Sollte keine Ergänzung kommen: **Empfehle** eine Überarbeitung nach der Übernahme
-- Übernimm die Thematik in die `Aufbau.md`
+- Übernimm die Thematik in die `Planung/Aufbau.md`
 
 Dieses Vorgehen zielt darauf ab den bisherigen Stand für das Plugin aufzubereiten!
 **Es zielt nicht darauf ab die Thematik zu überarbeiten oder zu optimieren!**
@@ -93,7 +93,7 @@ Gib keine Konsistenzchecks an!
 
 # Schritte
 
-Halte die Ergebnisse nach jedem Schritt in `Aufbau.md` fest!
+Halte die Ergebnisse nach jedem Schritt in `Planung/Aufbau.md` fest!
 Form nach vorgabe des Schrittes.
 
 ## 1. Formale Vorgaben

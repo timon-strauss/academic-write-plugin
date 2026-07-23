@@ -39,11 +39,11 @@ Um einzelne Kapitel planen zu können, sollte die Gliederung der Arbeit bereits 
 
 2. **Ordner-Struktur**
 
-Der Inhalt der Planung wird im `Planung/`-Ordner dokumentiert. Die `gliederung.md` **muss** aktuell sein mit der Gliederung in der .typ-Datei. Falls Abweichungen bestehen, möchte ich entscheiden, was richtig ist und was nicht.
-Falls die `gliederung.md` nicht existiert oder keine Gliederung in der .typ-Datei vorhanden ist, erstelle den fehlenden Teil.
+Der Inhalt der Planung wird im `Planung/`-Ordner dokumentiert. Die Gliederung in `Aufbau.md` **muss** aktuell sein mit der Gliederung in der .typ-Datei. Falls Abweichungen bestehen, möchte ich entscheiden, was richtig ist und was nicht.
+Falls keine Gliederung in der .typ-Datei besteht, erstelle sie basierend auf der `Aufbau.md`.
+Falls keine `Aufbau.md` existiert, verweise auf `/themenfindung` und `/gliederung`, bevor du fortfährst. Ohne dokumentiertes Thema bzw. Gliederung ist **keine Kapitelplanung möglich**.
 
 In den anderen Dateien, deren Format `xx_xx_xx.md` ähnelt (z.B. 02_01_03.md), ist der Planungsstand des jeweiligen Kapitels (2.1.3) dokumentiert. Aus diesen Dateien liest du und in diese Dateien schreibst du.
-
 
 ## Anfang
 

@@ -10,7 +10,7 @@ description: Du erarbeitest eine Gliederung der Arbeit, die auf dem roten Faden 
 - Bleibe sachlich, konkret und lösungsorientiert. Halte dich kurz und schreibe übersichtlich.
 - Betrachte die Pläne kritisch und widerspreche, falls meine Aussage keinen Sinn macht.
 - Denk dir keine Probleme aus, **sollte etwas feststehen, steht es fest**.
-- `Aufbau.md` ist dein Aufhänger. Erstelle eine falls nicht vorhanden. **Außerhalb des Templates**
+- `Planung/Aufbau.md` ist dein Aufhänger. Erstelle eine falls nicht vorhanden. **Außerhalb des Templates**
 
 ## Skill Aufruf
 
@@ -29,7 +29,7 @@ Erkläre danach kurz was du mit dem skill tust:
 - Keine ausgearbeitete Gliederung => Erarbeitung durch Interview
 - Unfertige Gliederung => Ergänzende Erarbeitung
 - Fertige Gliederung => Problemanalyse und Überarbeitung
-- Fertige Gliederung, die nicht in `Aufbau.md` steht => Analyse und Übernahme
+- Fertige Gliederung, die nicht in `Planung/Aufbau.md` steht => Analyse und Übernahme
 
 **Ich muss bestätigen**, außer ich habe im Prompt schon die Richtung vorgegeben!
 
@@ -76,7 +76,7 @@ Dieses Vorgehen zielt darauf ab die Gliederung zu optimieren!
 Gehe die Scopes von Grob bis Fein durch:
 - Rekonstruiere alle Antworten aus dem Input den ich dir gebe. Bsp. Bestehende Arbeit, Notizen
 - **Sollte etwas fehlen**: Weise darauf hin und bitte um Ergänzung. Sollte keine Ergänzung kommen: **Empfehle** eine Überarbeitung nach der Übernahme
-- Übernimm die Gliederung in die `Aufbau.md`
+- Übernimm die Gliederung in die `Planung/Aufbau.md`
 
 Dieses Vorgehen zielt darauf ab den bisherigen Stand für das Plugin aufzubereiten!
 **Es zielt nicht darauf ab die Gliederung zu überarbeiten oder zu optimieren!**
@@ -85,7 +85,7 @@ Gib keine Konsistenzchecks an!
 
 # Scopes 
 
-Halte die Ergebnisse nach jedem Scope in `Aufbau.md` fest!
+Halte die Ergebnisse nach jedem Scope in `Planung/Aufbau.md` fest!
 Die Passage dort wird mit `# Gliederung` eingeleitet. Inhalt wird folgend eingetragen; **Nutze die html deklaration**: 
 
 # Gliederung

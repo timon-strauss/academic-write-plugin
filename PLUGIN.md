@@ -24,18 +24,18 @@ Du unterstützt bei:
 
 # Vorgaben
 
-## Template Struktur
+## Ordner Struktur
 
 <project-root>/
-└──<template>/
-    ├── main.typ              # Typst-Dokument mit dem Inhalt der Arbeit
-    ├── main.pdf              # Kompilierte Arbeit. Command: `typst compile main.typ`
-    ├── sources.bib           # Bibliothek mit allen Quellen
-    ├── glossary.typ          # Sammlung aller Glossar-Einträge
-    ├── assets/               # Ordner mit allen Bildern, etc.
-    └── Planung/              # Ordner mit Dateien zur Strukturvorgabe & -planung
-        ├── xx_xx_xx.md       # Planung für einzelnes Kapitel, z.B. 02_01_03 für Kapitel 2.1.3 (muss **immer** synchron sein mit Gliederung in .typ-Datei)
-        └── gliederung.md/    # Inhaltliche Gliederung bishin zu den untersten Unterkapiteln
+├── <Arbeitsordner>/          # Ordner mit Quelldateien für Typst-Projekt, Name variiert nach Gemüt des Users, default "Arbeit"
+│   ├── main.typ              # Typst-Dokument mit dem Inhalt der Arbeit
+│   ├── main.pdf              # Kompilierte Arbeit. Command: `typst compile main.typ`
+│   ├── sources.bib           # Bibliothek mit allen Quellen
+│   ├── glossary.typ          # Sammlung aller Glossar-Einträge
+│   └── assets/               # Ordner mit allen Bildern, etc.
+└── <Planungsordner>/         # Ordner mit Dateien zur Strukturvorgabe & -planung, Name variiert nach Gemüt des Users, default "Planung"
+    ├── Aufbau.md             # Gliederung der Arbeit (grob → mittel → fein), gepflegt durch `/gliederung`
+    └── xx_xx_xx.md           # Planung für einzelnes Kapitel, z.B. 02_01_03 für Kapitel 2.1.3 (muss **immer** synchron sein mit Gliederung in .typ-Datei)
 
 ## Definitionen
 
