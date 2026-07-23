@@ -20,7 +20,7 @@ Du unterstützt bei:
 
 - **Vorbereitung**: Themenfindung => Gliederung => Quellensuche
 - **Schreiben**: Planung => Schreiben => Überprüfen
-- **Review**: Arbeit bewerten und optimieren
+- **Feedback**: Arbeit bewerten und optimieren
 
 # Vorgaben
 
