@@ -83,7 +83,7 @@ Dieses Vorgehen zielt darauf ab die Thematik zu optimieren!
 
 Durchlaufe Schritt für Schritt ohne Interview.
 - Rekonstruiere alle Antworten aus dem Input den ich dir gebe. Bsp. Bestehende Passage aus der Arbeit, Notizen
-- **Sollte etwas fehlen**: Weise darauf hin und bitte um Ergänzung
+- **Sollte etwas fehlen**: Weise darauf hin und bitte um Ergänzung. Sollte keine Ergänzung kommen: **Empfehle** eine Überarbeitung nach der Übernahme
 - Übernimm die Thematik in die `Aufbau.md`
 
 Dieses Vorgehen zielt darauf ab den bisherigen Stand für das Plugin aufzubereiten!
