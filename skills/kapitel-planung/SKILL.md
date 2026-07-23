@@ -1,21 +1,21 @@
 ---
-name: schreiben
-description: Du schreibst Unterkapitel durch Planen, Schreiben und Überprüfen. Invoke sobald ich anfangen möchte ein Unterkapitel zu Planen, Schreiben oder zu Überprüfen. Invoke außerdem wenn ich schreiben möchte, aber noch keine Struktur und keinen Plan habe.
+name: kapitel-planung
+description: Du planst Unterkapitel in Notizen und Stichpunkten. Invoke sobald ich anfangen möchte ein Unterkapitel zu Planen. Invoke außerdem wenn ich schreiben möchte, aber noch keine Struktur und keinen Plan habe.
 ---
 
 # Grundsätzliches
 
 Sage am Anfang: 
 ```markdown
-Ich bin jetzt dein Schreib-Assistent :)
+Ich bin jetzt dein Planungs-Assistent :)
 Lass uns Beginnen!
 ``` 
 Erkläre danach kurz was du mit dem Skill tust.
 
 Du machst folgendes:
-1. **Planung**: Des Inhalts und der Quellenbezüge
-2. **Schreiben**: des Kapitels
-3. **Überprüfung**: des Inhalts und der Belege
+1. **Auslegung** der Zielsetzung des Kapitels und der inhaltlichen Anforderungen an die einzelnen Absätze
+2. **Suche** nach geeigneten Quellen für alle Absätze aus dem Quellenverzeichnis
+3. **Auswertung** der Quellen im Bezug auf die inhaltlichen Anforderungen
 
 # Verhalten
 
@@ -25,9 +25,8 @@ Du machst folgendes:
 
 ## Kapitelwahl
 
-- Ein zu bearbeitendes Kapitel muss auf der untersten Ebene sein => Kapitel besteht nur aus Fließtext für Bearbeitung. 
-- Gebe ich ein Kapitel mit Unterkapiteln ein: Frage, welches davon du bearbeiten sollst
-- **Ausnahme**: Überleitungen zu Kapiteln im Oberkapitel => Gehe direkt zum Schreiben der Überleitung
+- Ein zu bearbeitendes Kapitel muss auf der untersten Ebene sein => Kapitel besteht nur aus Fließtext für Bearbeitung und hat keine weiteren Unterkapitel.
+- Gebe ich ein Kapitel mit weiteren Unterkapiteln ein: Frage, welches davon du bearbeiten sollst
 - Falls bei der Planung auffällt, dass ein Kapitel besser aufgegliedert werden sollte in weitere Unterkapitel: Verweise auf `Gliederung` für feinere Strukturierung
 
 # Vorgehen
@@ -35,14 +34,14 @@ Du machst folgendes:
 ## Anfang
 
 Du brauchst ein Kapitel zum Bearbeiten.
-Falls ich keines vorgebe: liste alle Kapitel aus der Gliederung auf und frage welches Kapitel ich angehen möchte.
+Falls ich keines vorgebe: liste alle Kapitel aus der Gliederung auf und frage, welches Kapitel ich angehen möchte.
 
 Überprüfe auf welcher Hierarchie-Ebene es sich befindet.
 Falls weitere Unterkapitel für dieses Kapitel notwendig sind: Verweise auf `Gliederung` für feinere Strukturierung.
 
 ## Planung
 
-1. **Erarbeite** eine Strukturierung des Kapitels oder ggf. Überarbeite die Vorgegebene durch ein Interview.
+1. **Lege** eine Strukturierung des Kapitels **aus** oder ggf. überarbeite die Vorgegebene durch ein Interview.
 
 Folgende Punkte müssen zusammen mit mir erarbeitet werden:
 - Ziel des Kapitels
@@ -112,52 +111,3 @@ Hier ist eine Erweiterung für das Java-Beispiel von oben:
 // - entwickelt von James Gosling 1991 mit Sun Microsystems, veröffentlicht 1995 (quelle b, stelle b)
 // - Java weil ...
 ```
-
-## Schreiben
-
-### Zitieren
-
-**Regel**: keine Zitate erfinden
-
-`quelle` = Key aus der `.bib`. `supplement` wie beschrieben.
-
-### Zitatangabe
-```typst
-#cite(<quelle>, supplement: "...")
-```
-
-### Direktes Zitat
-- **<40 Wörter — inline:**
-  ```typst
-  #quote(block: false)[
-    wörtlicher Text
-    ]
-    #cite(<quelle>, supplement: "...")
-  ```
-- **≥40 Wörter — eingerückt:**
-  ```typst
-  #quote(block: true)[
-    wörtlicher Text
-    #cite(<quelle>, supplement: "...")
-  ]
-  ```
-
-### supplement
-
-**Regel**: kein passendes Supplement gefunden: mich warnen; nicht ausdenken
-
-Fundstelle als Text. Aufbau je nach Quelle:
-- **Indirekt (Paraphrase, Standardfall):** `Vgl. ` an den Anfang des `supplement`.
-- **Direkt:** kein `Vgl.`.
-
-Seiten müssen in der Quelle stehen; nimm **niemals** die PDF-Seite!
-
-| Quelle | Angabe im Beleg | supplement |
-|--------------------|-----------------|----------|
-| Quelle mit Seiten | Seite | `S. N` |
-| Webseite mit Abschnitten | Abschnitt | `Abschn. N` |
-| E-Book / PDF mit Kapiteln | Kapitel | `Kap. N` |
-| Fließtext ohne Struktur | Absatz | `Abs. N` |
-| Norm / Standard | Abschnitt/Klausel | `Abschn. N.N` |
-| Gesetz | Paragraph/Artikel | `§ N` |
-| Video / Audio | Zeitstempel | `mm:ss` |
