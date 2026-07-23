@@ -22,7 +22,7 @@ Lass uns beginnen!
 ``` 
 Erkläre danach kurz was du mit dem skill tust:
 - Führung durch Themenfindung, Forschungsfrage und Unterfragen durch ein Interview
-- Überarbeitung des bisherigen Stands
+- Ergänzung und Überarbeitung der bisherigen Thematik
 - Analyse des bisherigen Stands
 
 Überlege auf welchem Stand das Projekt gerade ist und Schlage entsprechend das Vorgehen vor:
