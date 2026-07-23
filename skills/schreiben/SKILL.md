@@ -50,20 +50,68 @@ Folgende Punkte müssen zusammen mit mir erarbeitet werden:
 - Bezug zum Kontext der Arbeit
 - Einzelne Absätze
 
-Sobald alles fertig ist: schreibe die Notizen in Form von Kommentaren in das Kapitel
+Am Ende dieser Erarbeitung schreibst du diese Notizen in Form von Kommentaren in das Kapitel in der .typ-Datei an der entsprechenden Stelle.
 Kommentare für Absätze werden mit `//#Absatz:` eingeleitet.
+Folge dem grundsätzlicher Aufbau für Kommentare für ein Kapitel:
+
+```
+// Ziel: Leser versteht was Java ist, kann Variablen und Konstanten unterscheiden,
+// kennt primitive Datentypen und Klassen, versteht Vererbung und versteht die
+// Anwendungsfälle von Java im Business-IT Kontext.
+// Länge: 2 Seiten
+// Bezug: Grundsätzliche Informationen über Java vermitteln
+
+//#Absatz: Java Info
+// Aufbau:
+// - Grundsätzliches: Was ist Java
+// - Geschichte: Erfinder, Erscheinungsjahr
+// - Warum Java?
+
+//#Absatz: ...
+// Aufbau:
+// - ...
+```
+
+In diesem Teil dürfen **keine inhaltlichen Informationen** eingebracht werden. Notiere nur, *worüber* du schreiben möchtest, *nicht was*.
+Sämtlicher Inhalt muss nämlich grundsätzlich zuerst *an Quellen erarbeitet* werden und im Anschluss auch *an diesen Quellen belegt* sein.
+Einzige Ausnahme sind praktische Inhalte, bspw. meine Umsetzung oder bestimmte Entscheidungen, die ich getroffen habe. Hierfür bin nämlich ich die einzige Quelle.
+
+Frage nun, ob die Planung des Inhalts soweit in Ordnung geht.
 
 2. **Suche** konkrete Quellen heraus:
 
 - Suche mit NotebookLM und der Typst Bibliothek nach Quellen, die die Inhalte tragen könnten
 - Suche **keine neuen** Quellen, ausschließlich bereits vorhandene
 - **Stelle absolut sicher**, dass die benutzten Quellen auch tatsächlich in der Typst Bibliothek aufgelistet sind, sonst kannst du sie nicht verwenden
-- Notiere die Quellen zum jeweiligen Absatz
-- Schlage direkte Zitate vor, falls passend **Wichtig!**: direkte Zitate müssen **sehr selten** vorkommen aber sollten manchmal vorkommen. Nur falls es **wirklich** Sinn macht schlage ein direktes Zitat vor!
+- Notiere die Quellen direkt zum jeweiligen Absatz mit einem zusätzlichen Kommentar: ```// Quellen: a, b, c ```
+- Schlage direkte Zitate vor, falls passend. **Wichtig!**: direkte Zitate müssen **sehr selten** vorkommen, aber sollten manchmal vorkommen. Nur falls es **wirklich** Sinn macht schlage ein direktes Zitat vor!
 - Falls ich zustimme zum direkten Zitat: suche über `notebook_query` ein direktes Zitat aus einer **direkt zitierbaren** Quelle heraus
 - Setze dieses direkte Zitat in einen Kommentar zum Absatz hinzu: `//direktes Zitat:"<Zitat>" <Quellenangabe>`
 
-3. Frage ob das Kapitel so gut geplant ist und ob mit dem nächsten Schritt begonnen werden kann
+Frage erneut nach Bestätigung und fahre dann fort.
+
+3. **Werte** die Quellen **aus**.
+
+Nun kommt der Schritt, in dem du tatsächlich inhaltliche Notizen schreiben darfst.
+
+- Benutze NotebookLM zum Auslesen der Quellen und zum Finden von für den jeweiligen Absatz relevanten Informationen.
+- Notiere nun **zusätzlich** zu den bestehenden Kommentaren die neu erarbeiteten Informationen.
+- Belege **alle** Informationen mit den Quellen, aus denen du diese Informationen erlangt hast.
+
+Hier ist eine Erweiterung für das Java-Beispiel von oben:
+
+```
+//#Absatz: Java Info
+// Aufbau:
+// - Grundsätzliches: Was ist Java
+// - Geschichte: Erfinder, Erscheinungsjahr
+// - Warum Java?
+//
+// Inhalt:
+// - Java = weltweit verbreitete, objektorientierte Programmiersprache (quelle a, stelle a)
+// - entwickelt von James Gosling 1991 mit Sun Microsystems, veröffentlicht 1995 (quelle b, stelle b)
+// - Java weil ...
+```
 
 ## Schreiben
 
