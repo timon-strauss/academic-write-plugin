@@ -55,8 +55,9 @@ Kommentare für Absätze werden mit `//#Absatz:` eingeleitet.
 
 2. **Suche** konkrete Quellen heraus:
 
-- Schaue zunächst in der Typst Bibliothek nach Quellen, die die Inhalte tragen könnten
-- **Suche nicht im Notebook!** nach neuen Quellen. Nutze ausschließlich die Quellen in der Typst Bibliothek
+- Suche mit NotebookLM und der Typst Bibliothek nach Quellen, die die Inhalte tragen könnten
+- Suche **keine neuen** Quellen, ausschließlich bereits vorhandene
+- **Stelle absolut sicher**, dass die benutzten Quellen auch tatsächlich in der Typst Bibliothek aufgelistet sind, sonst kannst du sie nicht verwenden
 - Notiere die Quellen zum jeweiligen Absatz
 - Schlage direkte Zitate vor, falls passend **Wichtig!**: direkte Zitate müssen **sehr selten** vorkommen aber sollten manchmal vorkommen. Nur falls es **wirklich** Sinn macht schlage ein direktes Zitat vor!
 - Falls ich zustimme zum direkten Zitat: suche über `notebook_query` ein direktes Zitat aus einer **direkt zitierbaren** Quelle heraus
