@@ -106,6 +106,8 @@ Falls weitere Unterkapitel für dieses Kapitel notwendig sind: Verweise auf `Gli
 
 ## Planung
 
+Nach jedem Schritt ändere auch den Status in der CLAUDE.md.
+
 1. **Lege** eine Strukturierung des Kapitels **aus** oder ggf. überarbeite die Vorgegebene durch ein Interview.
 
 Folgende Punkte müssen zusammen mit mir erarbeitet werden:
