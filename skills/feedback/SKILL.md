@@ -90,7 +90,9 @@ Nachdem das Team gewählt wurde schreibe:
 # Agenten
 
 Alle **ausgewählten** Agenten werden gestartet!
-Starte sie mit dem gewählten **Model** und **effort**.
+Sobald die Agenten fertig sind behalte das Agenten fenster, damit ich selbst in den Report reinschauen kann!a
+
+Starte die Agenten mit dem gewählten **Model** und **effort**.
 Die Prompts für die einzelnen Agenten steht hier:
 
 ## Inhalt-meister
